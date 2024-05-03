@@ -68,6 +68,12 @@ export const projectsData = [
       "Como desarrollador, dediqué una semana a esta plataforma. Pokemon es una API RESTful que proporciona datos detallados sobre todos los Pokémon.",
     tags: ["React", "JavaScript", "Scss","Git"],
     imageUrl: pokemon,
+    linkUrl: "https://frabjous-klepon-ceafdf.netlify.app",
+    onClick: () => {
+      // Lógica a ejecutar cuando se haga clic en este proyecto
+      console.log("Clic en el proyecto Pokemon");
+      // Puedes agregar aquí cualquier otra lógica que desees ejecutar
+    }
   },
   {
     title: "Buscador de usuario en Git",

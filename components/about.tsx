@@ -19,20 +19,9 @@ export default function About() {
     >
       <SectionHeading>Sobre mi</SectionHeading>
       <p className="mb-3">
-        Actualmente, me encuentro en la etapa final de mis estudios en{" "}
-        <span className="font-medium">Ingenieria Informatica</span>, Durante este tiempo, he decidido profundizar 
-        mis conocimientos en programación, lo cual me ha llevado a inscribirme en un programa académico enfocado en {" "}
-        <span className="font-medium">Ciencias de la computacion</span>{" "}
-        <span className="italic"> en Academlo. Lo que más disfruto de la programación</span> es la satisfacción 
-        de encontrar soluciones a los desafíos que se presentan. La <span className="underline">emoción</span> de haber resuelto
-        un problema con éxito es incomparable. En cuanto al manejo de mis habilidades técnicas se centran
-        en tecnologías como{" "}
-        <span className="font-medium">
-          React, Next, Node y Redux
-        </span>
-        . además de estar familiarizado con Python. Siempre estoy buscando oportunidades para aprender nuevas
-        tecnologías y mejorar mis habilidades. Actualmente, estoy en búsqueda de un empleo a tiempo completo en desarrollo web {" "}
-        <span className="font-medium">donde pueda aplicar</span> y seguir ampliando mis conocimientos y experiencia en este campo.
+        Actualmente me encuentro en la etapa final de mis estudios en{" "}
+        <span className="font-medium">Ingenieria Informatica</span>, y seguido reforzando
+        mis conocimientos en programación, por medio de un bootcamp llamado Academlo.
       </p>
 
     </motion.section>

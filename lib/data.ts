@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import pokemon from "@/public/pokemon.png";
 import git from "@/public/git.png";
 import rick from "@/public/rick.png";
+import tarea from "@/public/tarea.png";
 
 export const links = [
   {
@@ -66,14 +67,10 @@ export const projectsData = [
     title: "Pokemon",
     description:
       "Como desarrollador, dediqué una semana a esta plataforma. Pokemon es una API RESTful que proporciona datos detallados sobre todos los Pokémon.",
-    tags: ["React", "JavaScript", "Scss","Git"],
+      
+      tags: ["React", "JavaScript", "Scss","Git"],
     imageUrl: pokemon,
-    linkUrl: "https://frabjous-klepon-ceafdf.netlify.app",
-    onClick: () => {
-      // Lógica a ejecutar cuando se haga clic en este proyecto
-      console.log("Clic en el proyecto Pokemon");
-      // Puedes agregar aquí cualquier otra lógica que desees ejecutar
-    }
+  
   },
   {
     title: "Buscador de usuario en Git",
@@ -89,6 +86,14 @@ export const projectsData = [
     tags: ["React", "JavaScript", "Axios", "Git"],
     imageUrl: rick,
   },
+  {
+    title: "Lista de tareas",
+    description:
+      "Permite listar tareas pendientes deacuerdo a las necesidades del usuario requiera",
+      
+    tags: ["vue 3", "Git", "JavaScript"],
+    imageUrl: tarea,
+  },
 ] as const;
 
 export const skillsData = [
@@ -97,11 +102,10 @@ export const skillsData = [
   "JavaScript",
   "React",
   "Redux",
+  "Vue 3",
   "Node.js",
   "Git",
   "Python",
-  "Marionette",
-  "MongoDB",
   "PostgreSQL",
   "Python",
   "Django",
